@@ -3,8 +3,6 @@
 A modern, feature-rich chat application built with Next.js 15, React 19, and TypeScript. This application provides an intelligent chat interface with streaming responses, multiple conversation management, and a beautiful responsive design.
 
 ## Live Demo
-
-## Live Demo
 - Primary: https://usureru.com
 - Backup:  https://usureru-frontend.vercel.app
 

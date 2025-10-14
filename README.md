@@ -148,8 +148,12 @@ Replace the mock API in `app/api/ask/route.ts` with your AI service (e.g., OpenA
 
 ## Deployment
 
-The application is deployed and accessible at:
-**https://3000-iam127sv8kde9pgva140v-2e5ec838.manusvm.computer**
+Push to main on GitHub → Vercel auto-builds & deploys.
+
+Canonical domain: https://usureru.com
+ (www redirects to root).
+
+Backup alias: https://usureru-frontend.vercel.app
 
 ## License
 

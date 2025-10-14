@@ -4,7 +4,9 @@ A modern, feature-rich chat application built with Next.js 15, React 19, and Typ
 
 ## Live Demo
 
-🌐 **Deployed Application**: https://3000-iam127sv8kde9pgva140v-2e5ec838.manusvm.computer
+## Live Demo
+- Primary: https://usureru.com
+- Backup:  https://usureru-frontend.vercel.app
 
 ## Features
 
@@ -110,10 +112,16 @@ chat-app/
 
 ## API Endpoints
 
-### `POST /api/ask`
-Main chat endpoint that processes messages and streams responses.
+GET /api/status
+Health check; returns JSON with name, version, buildTime, runtime.
 
-**Request:**
+GET /api/sse-test
+Server-Sent Events test; streams lines starting with "data:".
+
+POST /api/ask
+Main chat endpoint (mock for now; swap to real AI later).
+
+Request:
 ```json
 {
   "message": "Hello, how are you?",
@@ -121,14 +129,7 @@ Main chat endpoint that processes messages and streams responses.
   "mode": "detailed"
 }
 ```
-
-**Response:** SSE stream with AI-generated response
-
-### `GET /api/_status`
-Health check endpoint
-
-### `GET /api/_sse-test`
-SSE testing endpoint
+Response: streamed SSE.
 
 ## Key Features Implementation
 
